@@ -1,0 +1,30 @@
+{
+  "name": "gigya-toolkit",
+  "description": "A CLI toolkit to create your Gigya screensets with React",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Robin van der Vleuten <robin@webstronauts.co>",
+  "main": "lib/index.js",
+  "bin": {
+    "gigya": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": "robinvdvleuten/gigya-toolkit",
+  "bugs": {
+    "url": "https://github.com/robinvdvleuten/gigya-toolkit/issues"
+  },
+  "homepage": "https://github.com/robinvdvleuten/gigya-toolkit#readme",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "please-upgrade-node": "^3.0.1",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-webstronauts": "^1.2.1"
+  }
+}
