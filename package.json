@@ -17,14 +17,24 @@
   },
   "homepage": "https://github.com/robinvdvleuten/gigya-toolkit#readme",
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "dependencies": {
+    "chalk": "^2.3.0",
+    "lodash": "^4.17.4",
+    "log-symbols": "^2.1.0",
+    "memory-fs": "^0.4.1",
     "please-upgrade-node": "^3.0.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "require-from-string": "^2.0.1",
+    "webpack": "^3.8.1",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
     "eslint": "^4.10.0",
-    "eslint-config-webstronauts": "^1.2.1"
+    "eslint-config-webstronauts": "^1.2.1",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
   }
 }
