@@ -33,7 +33,7 @@ You can create the correct HTML markup and synchronize them with Gigya like this
 bin/gigya --api-key=<GIGYA API KEY> --secret=<GIGYA SECRET> --region=<GIGYA DATACENTER> src
 ```
 
-## Command-line Options
+## CLI Options
 
 Create and synchronize your screensets.
 
@@ -46,8 +46,37 @@ Options:
   --api-key      Your Gigya API key                                    [string]
   --secret       Your Gigya secret                                     [string]
   --region       Your Gigya region                                     [string]
+  --config, -c   Path to custom CLI config                             [string]
   --help, -h     Show help                                             [boolean]
   --version, -v  Show version number                                   [boolean]
+```
+
+## Custom Configuration
+
+To customize the compilation process, create a `toolkit.config.js` file which exports multiple hooks that will be invoked on each compilation step.
+
+```js
+/**
+ * Function that mutates webpack configuration.
+ * Supports asynchronous changes when promise is returned.
+ *
+ * @param {object} config - The webpack configuration.
+ * @param {object} env - options passed to CLI.
+ **/
+exports.webpack = (config, env) => {
+  /** you can change config here **/
+}
+
+/**
+ * Function that renders the React component.
+ * Supports asynchronous rendering when promise is returned.
+ *
+ * @param {object} config - The render configuration.
+ * @param {object} env - options passed to CLI.
+ **/
+exports.render = ({ Component }, env) => {
+  /** you can return a custom { markup, styles } object here **/
+}
 ```
 
 ## License
