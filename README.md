@@ -2,6 +2,9 @@
 
 A CLI toolkit to create your [Gigya](https://www.gigya.com) screensets with [React](https://reactjs.org/).
 
+[![NPM version](https://img.shields.io/npm/v/gigya-toolkit.svg)](https://www.npmjs.com/package/gigya-toolkit)
+[![Build Status](https://travis-ci.org/robinvdvleuten/gigya-toolkit.svg?branch=master)](https://travis-ci.org/robinvdvleuten/gigya-toolkit)
+
 ## Usage
 
 When you have defined a screen set (src/RegistrationLogin.js) like this;
