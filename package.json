@@ -9,7 +9,8 @@
     "gigya": "./bin/index.js"
   },
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "prepublishOnly": "pkg-ok"
   },
   "repository": "robinvdvleuten/gigya-toolkit",
   "bugs": {
@@ -34,6 +35,7 @@
   "devDependencies": {
     "eslint": "^4.10.0",
     "eslint-config-webstronauts": "^1.2.1",
+    "pkg-ok": "^1.1.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0"
   }
