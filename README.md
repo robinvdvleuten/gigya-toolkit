@@ -5,6 +5,14 @@ A CLI toolkit to create your [Gigya](https://www.gigya.com) screensets with [Rea
 [![NPM version](https://img.shields.io/npm/v/gigya-toolkit.svg)](https://www.npmjs.com/package/gigya-toolkit)
 [![Build Status](https://travis-ci.org/robinvdvleuten/gigya-toolkit.svg?branch=master)](https://travis-ci.org/robinvdvleuten/gigya-toolkit)
 
+## Installation
+
+Install the package and its peer dependencies.
+
+```bash
+$ npm install --save gigya-toolkit react react-dom
+```
+
 ## Usage
 
 When you have defined a screen set (src/RegistrationLogin.js) like this;
