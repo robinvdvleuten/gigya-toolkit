@@ -46,10 +46,10 @@ bin/gigya --api-key=<GIGYA API KEY> --secret=<GIGYA SECRET> --region=<GIGYA DATA
 
 ## CLI Options
 
-Create and synchronize your screensets.
+Compile and synchronize your screensets with the configured Gigya account.
 
 ```bash
-bin/gigya [options] <source>
+bin/gigya build [options] <source>
 
 Options:
   --cwd          A directory to use instead of $PWD
@@ -60,6 +60,23 @@ Options:
   --config, -c   Path to custom CLI config                             [string]
   --help, -h     Show help                                             [boolean]
   --version, -v  Show version number                                   [boolean]
+```
+
+Start a development server to develop your screensets locally.
+
+```bash
+bin/gigya develop [options] <source>
+
+Options:
+  --cwd          A directory to use instead of $PWD
+  --prefix       Prefix the identifier of the screenset
+  --api-key      Your Gigya API key                                    [string]
+  --secret       Your Gigya secret                                     [string]
+  --region       Your Gigya region                                     [string]
+  --config, -c   Path to custom CLI config                             [string]
+  --help, -h     Show help                                             [boolean]
+  --version, -v  Show version number                                   [boolean]
+  --port         Port to start a server on                       [default: 3000]
 ```
 
 ## Custom Configuration
