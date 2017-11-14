@@ -41,7 +41,18 @@ export default () => (
 You can create the correct HTML markup and synchronize them with Gigya like this;
 
 ```bash
-bin/gigya --api-key=<GIGYA API KEY> --secret=<GIGYA SECRET> --region=<GIGYA DATACENTER> src
+bin/gigya build --api-key=<GIGYA API KEY> --secret=<GIGYA SECRET> --region=<GIGYA DATACENTER> src
+```
+
+## Default Configuration
+
+The toolkit will look for a `.gigyarc` in the current directory where the CLI is used. If one does not exist, it will travel up the directory tree until it finds a `.gigyarc`. All CLI options are allowed here.
+
+```json
+{
+  "apiKey": "<YOUR GIGYA API KEY>",
+  "secret": "<YOUR GIGYA SECRET>"
+}
 ```
 
 ## CLI Options
