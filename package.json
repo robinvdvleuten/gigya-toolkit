@@ -29,6 +29,7 @@
     "chalk": "^2.3.0",
     "ejs-loader": "^0.3.0",
     "extract-stack": "^1.0.0",
+    "find-up": "^2.1.0",
     "html-webpack-plugin": "^2.30.1",
     "json-parse-helpfulerror": "^1.0.3",
     "lodash": "^4.17.4",
