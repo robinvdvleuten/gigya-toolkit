@@ -115,7 +115,7 @@ exports.webpack = (config, env) => {
  * @param {object} config - The render configuration.
  * @param {object} env - options passed to CLI.
  **/
-exports.render = ({ Component }, env) => {
+exports.render = ({ Component, styles }, env) => {
   /** you can return a custom { markup, styles } object here **/
 }
 ```
