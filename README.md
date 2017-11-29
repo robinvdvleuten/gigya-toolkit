@@ -87,6 +87,7 @@ Options:
   --config, -c   Path to custom CLI config                             [string]
   --help, -h     Show help                                             [boolean]
   --version, -v  Show version number                                   [boolean]
+  --template     Path to custom template file                          [string]
   --port         Port to start a server on                             [default: 3000]
   --host         Host to start a server on                             [default: "localhost"]
 ```
