@@ -103,8 +103,9 @@ To customize the compilation process, create a `toolkit.config.js` file which ex
  *
  * @param {object} config - The webpack configuration.
  * @param {object} env - options passed to CLI.
+ * @param {object} helpers - additional Webpack configuration helpers.
  **/
-exports.webpack = (config, env) => {
+exports.webpack = (config, env, helpers) => {
   /** you can change config here **/
 }
 
