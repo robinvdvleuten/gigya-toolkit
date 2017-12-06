@@ -44,17 +44,6 @@ You can create the correct HTML markup and synchronize them with Gigya like this
 bin/gigya build --api-key=<GIGYA API KEY> --secret=<GIGYA SECRET> --region=<GIGYA DATACENTER> src
 ```
 
-## Default Configuration
-
-The toolkit will look for a `.gigyarc` in the current directory where the CLI is used. If one does not exist, it will travel up the directory tree until it finds a `.gigyarc`. All CLI options are allowed here.
-
-```json
-{
-  "apiKey": "<YOUR GIGYA API KEY>",
-  "secret": "<YOUR GIGYA SECRET>"
-}
-```
-
 ## CLI Options
 
 Compile and synchronize your screensets with the configured Gigya account.
@@ -91,6 +80,16 @@ Options:
   --port         Port to start a server on                             [default: 3000]
   --host         Host to start a server on                             [default: "localhost"]
 ```
+
+## Default Options
+
+You can use different ways to set a default options:
+
+* `gigya` object in your `package.json`
+* `.gigyarc` file in JSON or YML format
+* `gigya.config.js` file in JS format
+
+See [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) for more details on what formats are supported.
 
 ## Custom Configuration
 
