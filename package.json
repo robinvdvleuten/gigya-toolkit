@@ -34,7 +34,7 @@
     "extract-stack": "^1.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
-    "got": "^7.1.0",
+    "got": "^8.0.0",
     "html-webpack-plugin": "^2.30.1",
     "json-parse-helpfulerror": "^1.0.3",
     "loader-utils": "^1.1.0",
