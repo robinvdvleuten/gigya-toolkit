@@ -3669,6 +3669,10 @@ nopt@^4.0.1:
     abbrev "1"
     osenv "^0.1.4"
 
+normalize-newline@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/normalize-newline/-/normalize-newline-3.0.0.tgz#1cbea804aba436001f83938ab21ec039d69ae9d3"
+
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.4.0.tgz#12f95a307d58352075a04907b84ac8be98ac012f"
@@ -4018,9 +4022,12 @@ pkg-dir@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pkg-ok@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/pkg-ok/-/pkg-ok-1.1.0.tgz#0698b66d248183f7e3f2529262eeacdff7cef371"
+pkg-ok@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-ok/-/pkg-ok-2.0.0.tgz#54fdd0d899463506259fbee4b92a656c2ea8566e"
+  dependencies:
+    normalize-newline "^3.0.0"
+    yargs "^11.0.0"
 
 please-upgrade-node@^3.0.1:
   version "3.0.1"
