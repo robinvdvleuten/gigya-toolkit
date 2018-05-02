@@ -8,6 +8,14 @@
   "bin": {
     "gigya": "./bin/index.js"
   },
+  "files": [
+    "bin",
+    "lib",
+    "babel.js"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
     "test": "eslint .",
     "prepublishOnly": "pkg-ok"
@@ -17,9 +25,6 @@
     "url": "https://github.com/robinvdvleuten/gigya-toolkit/issues"
   },
   "homepage": "https://github.com/robinvdvleuten/gigya-toolkit#readme",
-  "engines": {
-    "node": ">=8"
-  },
   "dependencies": {
     "@babel/core": "7.0.0-beta.46",
     "@babel/preset-env": "7.0.0-beta.46",
