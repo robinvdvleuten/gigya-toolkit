@@ -41,7 +41,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
     "got": "^8.0.0",
-    "html-webpack-plugin": "^2.30.1",
+    "html-webpack-plugin": "^3.0.0",
     "json-parse-helpfulerror": "^1.0.3",
     "loader-utils": "^1.1.0",
     "lodash": "^4.17.4",
