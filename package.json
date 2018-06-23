@@ -61,7 +61,7 @@
     "yargs": "^11.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.10.0",
+    "eslint": "^5.0.0",
     "eslint-config-webstronauts": "^1.2.1",
     "pkg-ok": "^2.0.0",
     "react": "^16.0.0",
