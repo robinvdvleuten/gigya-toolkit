@@ -35,7 +35,7 @@
     "babel-loader": "^8.0.0-beta.0",
     "chalk": "^2.3.0",
     "cosmiconfig": "^4.0.0",
-    "css-loader": "^0.28.7",
+    "css-loader": "^1.0.0",
     "ejs-loader": "^0.3.0",
     "extract-stack": "^1.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
