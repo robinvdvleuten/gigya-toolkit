@@ -50,7 +50,7 @@
     "ora": "^2.0.0",
     "p-reduce": "^1.0.0",
     "please-upgrade-node": "^3.0.1",
-    "postcss-loader": "^2.0.9",
+    "postcss-loader": "^3.0.0",
     "require-from-string": "^2.0.1",
     "require-relative": "^0.8.7",
     "script-ext-html-webpack-plugin": "^2.0.1",
